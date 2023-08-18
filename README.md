@@ -6,7 +6,7 @@
 
 # Single socketIO server node load test result with artillery
 
-    *   Check server logs [loadTest_single_node.log](./loadTest_single_node.log)
+    *   Check server logs in "loadTest_single_node.log" file
             
         All VUs finished. Total time: 1 minute, 38 seconds
 
@@ -38,7 +38,7 @@
 
 # Cluster of socketIO server nodes (16 worker nodes) load test result with artillery
 
-    *   Check server logs [loadTest_cluster_nodes.log](./loadTest_cluster_nodes.log)
+    *   Check server logs in "loadTest_cluster_nodes.log" file
 
         All VUs finished. Total time: 4 minutes, 18 seconds
 
