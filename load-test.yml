@@ -1,0 +1,23 @@
+config:
+  target: "http://localhost:8080"
+  socketio:
+    query:
+      roomId: "room1"
+    transports: ["websocket"]
+  phases:
+    - duration: 60
+      arrivalRate: 300
+scenarios:
+  - engine: "socketio"
+    flow:
+      - think: 5
+      - loop:
+          - emit:
+              channel: "message"
+              data: "{ 'message': 'hello there', 'date': 'nothing' }"
+          - think: 1
+        count: 10
+      - think: 5
+      
+
+      
