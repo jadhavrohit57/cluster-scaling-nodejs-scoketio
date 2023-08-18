@@ -1,12 +1,12 @@
 # cluster-scaling-nodejs-scoketio
 
-    * Load test file [a relative link](load-test.yml)
+    * Load test file [load-test.yml](./load-test.yml)
     * RUN single node command "$ npm run start:single"
     * RUN cluster nodes command "$ npm run start:cluster"
 
 # Single socketIO server node load test result with artillery
 
-    *   Check server logs [a relative link](loadTest_single_node.log)
+    *   Check server logs [loadTest_single_node.log](./loadTest_single_node.log)
             
         All VUs finished. Total time: 1 minute, 38 seconds
 
@@ -38,7 +38,7 @@
 
 # Cluster of socketIO server nodes (16 worker nodes) load test result with artillery
 
-    *   Check server logs [a relative link](loadTest_cluster_nodes.log)
+    *   Check server logs [loadTest_cluster_nodes.log](./loadTest_cluster_nodes.log)
 
         All VUs finished. Total time: 4 minutes, 18 seconds
 
